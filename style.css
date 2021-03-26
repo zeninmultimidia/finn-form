@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 164vh;
+    background-color: #2CB3F3;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.welcome{
+    text-align: center;
+    line-height: 4rem;
+    position: absolute;
+    left: 25rem;
+    top: 5.5rem;
+}
+h1{
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+P{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.capuz{
+    width: 56rem;
+    height: 98vh;
+    background-color: #FFFFFF;
+    border-radius: 100px 100px 0px 0px;
+    position: absolute;
+    left: 15.18rem;
+    top: 15.31rem;
+}
+.rosto{
+    width: 50vw;
+    height: 78vh;
+    background-color: #FFE1C9;
+    border-radius: 80% 80% 80% 80%;
+    position: absolute;
+    left: 21rem;
+    top: 19.31rem;
+}
+.olho-esq, .olho-dir{
+    width: 4vw;
+    height: 9vh;
+    background-color: #000000;
+    border-radius: 100%;
+    position: absolute;
+    top: 25.36rem;
+    left: 32.12rem;
+}
+.olho-dir{
+    left: 49.71rem;
+}
+.form{
+    width: 23.5rem;
+    height: 8rem;
+    font-size: 3rem;
+    position: relative;
+    left: 31rem;
+    top: 35rem;
+}
+input{
+    width: 23.3rem;
+    height: 4rem;
+    border: 3px solid #000000;
+    border-radius: 3%;
+}
+.email, .password, button{
+    position: absolute;
+    font-size: 1.5rem;
+    
+}
+.password{
+    top: 3.8rem;
+}
+button{
+    width: 16vw;
+    height: 11.2vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffffa6;
+    background-color: #55A603;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px;
+    top: 20.4rem;
+    left: 5rem;
+}
