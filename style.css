@@ -9,81 +9,101 @@ body{
     width: 100vw;
     height: 164vh;
     background-color: #2CB3F3;
-    position: relative;
-    left: 0px;
-    top: 0px;
+    position: absolute;
 }
 .welcome{
+    margin-top: 5.5rem;
     text-align: center;
     line-height: 4rem;
-    position: absolute;
-    left: 25rem;
-    top: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 h1{
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 3.5vw;
 }
 P{
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
+}
+.finn-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .capuz{
-    width: 56rem;
+    width: 64vw;
     height: 98vh;
     background-color: #FFFFFF;
     border-radius: 100px 100px 0px 0px;
-    position: absolute;
-    left: 15.18rem;
-    top: 15.31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .rosto{
     width: 50vw;
     height: 78vh;
     background-color: #FFE1C9;
     border-radius: 80% 80% 80% 80%;
-    position: absolute;
-    left: 21rem;
-    top: 19.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.olhos{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    top: 6rem;
 }
 .olho-esq, .olho-dir{
     width: 4vw;
     height: 9vh;
     background-color: #000000;
     border-radius: 100%;
-    position: absolute;
-    top: 25.36rem;
-    left: 32.12rem;
+    position: relative;
+}
+.olho-esq{
+    left: 2rem;
 }
 .olho-dir{
-    left: 49.71rem;
+    right: 2rem;
 }
 .form{
-    width: 23.5rem;
-    height: 8rem;
+    width: 26rem;
+    height: 20rem;
+    margin-top: 10rem;
     font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    left: 31rem;
-    top: 35rem;
 }
 input{
-    width: 23.3rem;
-    height: 4rem;
+    width: 26vw;
+    height: 10vh;
     border: 3px solid #000000;
     border-radius: 3%;
+    display: flex;
 }
 .email, .password, button{
-    position: absolute;
     font-size: 1.5rem;
-    
-}
-.password{
-    top: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 button{
     width: 16vw;
     height: 11.2vh;
-    font-size: 1.5rem;
     font-weight: bold;
     line-height: 28px;
     text-transform: uppercase;
@@ -91,6 +111,5 @@ button{
     background-color: #55A603;
     border-radius: 5px;
     box-shadow: 0px 4px 4px;
-    top: 20.4rem;
-    left: 5rem;
+    top: 12rem;
 }
